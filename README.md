@@ -15,6 +15,19 @@ Unity ML-Agentsを使った2エージェント対戦型の鬼ごっこゲーム�
 - Python 3.10.12
 - mlagents 1.1.0
 
+# ディレクトリ構成
+
+```
+tag-game/
+├── Unity/              # Unityプロジェクト
+├── TagGameML/            # Python設定
+│   ├── requirements.txt
+│   └── config/
+│       └── tag_game.yaml
+├── venv/                 # 仮想環境
+└── results/              # 学習結果
+```
+
 # 仮想環境の作成
 
 ```shell
@@ -25,7 +38,7 @@ py -3.10 -m venv venv
 .\venv\Scripts\activate
 
 # パッケージのインストール
-pip install -r requirements.txt
+pip install -r TagGameML/requirements.txt
 ```
 
 
