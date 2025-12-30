@@ -19,7 +19,7 @@ Unity ML-Agentsを使った2エージェント対戦型の鬼ごっこゲーム�
 
 ```
 tag-game/
-├── Unity/              # Unityプロジェクト
+├── TagGame/              # Unityプロジェクト
 ├── TagGameML/            # Python設定
 │   ├── requirements.txt
 │   └── config/
